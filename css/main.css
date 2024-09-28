@@ -33,6 +33,10 @@ body {
   pointer-events: none; 
   z-index: 9999;
   transform: translate(-50%, -50%); 
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .custom-cursor__inner {
@@ -158,6 +162,9 @@ body {
   height: 100vh;
   pointer-events: none; 
   z-index: 9999;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .trail {
